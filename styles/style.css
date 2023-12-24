@@ -77,6 +77,17 @@ ol {
   justify-content: space-between;
 }
 
+.search-form__fieldset-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search-form__fieldset {
+  border: 0;
+}
+
 .content__details {
   display: grid;
   align-items: end;
@@ -85,7 +96,16 @@ ol {
 }
 
 .title {
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
+}
 
+.content__accent {
+  color: #545050;
 }
 
 .content__list {
@@ -105,6 +125,11 @@ ol {
   padding-top: 0;
 }
 
+.content__card-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .preloader-template {
 }
 
@@ -119,7 +144,16 @@ ol {
 }
 
 .content__video-card-title {
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%; 
+  text-transform: uppercase;
   text-overflow: ellipsis;
+}
+
+.content__video-card-description {
+  margin-top: 6px;
 }
 
 .content__video-card-thumbnail {
