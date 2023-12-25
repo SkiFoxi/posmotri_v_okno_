@@ -188,7 +188,7 @@ ol {
 }
 
 .button:active {
-  background-color: #545050;;
+  background-color: #545050;
 }
 
 .button:focus-visible {
@@ -233,7 +233,7 @@ ol {
 }
 
 .content__list-item {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .content__list-item:first-child {
@@ -244,13 +244,12 @@ ol {
   display: block;
   color: #fff;
   text-decoration: none;
+  margin: 3px;
 }
 
 .content__card-link_current {
   background-color: #545050;
-}
-
-.preloader-template {
+  padding: 2px;
 }
 
 .content__video-card {
@@ -258,12 +257,30 @@ ol {
   grid-template-columns: 200px 194px;
   align-items: start;
 }
+.content__video-card:hover > .content__video-card-description-container >.content__video-card-description,
+.content__video-card:hover > .content__video-card-description-container > .content__video-card-title {
+  border-bottom: 1px solid #fff;
+  width: max-content;
+}
+
+.content__video-card:active {
+  background-color: #545050; 
+}
+
+.content__video-card:focus {
+  outline: 0;
+}
+
+.content__video-card:focus-visible {
+  outline: 1px solid #fff;
+}
 
 .content__video-card-description-container {
   text-overflow: ellipsis;
 }
 
 .content__video-card-title {
+  padding-top: 6px;
   font-family: Oswald;
   font-size: 30px;
   font-weight: 700;
@@ -283,6 +300,7 @@ ol {
 .more-button {
   min-width: 100%;
   height: 34px;
+  margin-top: 30px;
 }
 
 .more-button:hover > span {
